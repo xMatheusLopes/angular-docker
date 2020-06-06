@@ -1,6 +1,7 @@
 version: "3.8"
 services:
     angulardocker:
+        container_name: angular-container
         build: .
         volumes: 
             - .:/app
